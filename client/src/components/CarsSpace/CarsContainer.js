@@ -24,7 +24,7 @@ class CarsContainer extends Component {
             model: '',
             year: '',
             transition: '',
-            priceRange: '$60,000 - $130,000'
+            priceRange: 'KSHS 200,000 - 20,000,000'
         };
         this.setCarCondition = this.setCarCondition.bind(this);
         this.setCarBody = this.setCarBody.bind(this);
@@ -85,7 +85,7 @@ class CarsContainer extends Component {
     viewAllCars(){
         this.setState({buttonSearchClicked : false});
         this.setState({fetchedCars : {}});
-        this.setState({priceRange: '$60,000 - $130,000'});
+        this.setState({priceRange: 'KSHS 200,000 - KSHS 20,000,000'});
         if(!this.state.buttonSearchClicked)this.props.turnOffHomefilter();
     }
 
@@ -196,6 +196,12 @@ class CarsContainer extends Component {
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenu5">
                                         <li id="" onClick={this.setCarYear}>Any Year</li>
+                                        <li id="2016" onClick={this.setCarYear}>2022</li>
+                                        <li id="2016" onClick={this.setCarYear}>2021</li>
+                                        <li id="2016" onClick={this.setCarYear}>2020</li>
+                                        <li id="2016" onClick={this.setCarYear}>2019</li>
+                                        <li id="2016" onClick={this.setCarYear}>2018</li>
+                                        <li id="2016" onClick={this.setCarYear}>2017</li>
                                         <li id="2016" onClick={this.setCarYear}>2016</li>
                                         <li id="2015" onClick={this.setCarYear}>2015</li>
                                         <li id="2014" onClick={this.setCarYear}>2014</li>
@@ -223,9 +229,9 @@ class CarsContainer extends Component {
                         </div>
                         <div className="clearfix"></div>
                         <div className="banner-item banner-bg-4 banner-1x color-inher">
-                            <h5>Lorem ipsum dolor</h5>
+                            <h5>For All Your</h5>
                             <h3 className="f-weight-300"><strong>Interior</strong> Accessories</h3>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel</p>
+                            <p>Order everything at the tip of your fingers.</p>
                             <a className="ht-btn ht-btn-default">Shop now</a>
                         </div>
                     </div>

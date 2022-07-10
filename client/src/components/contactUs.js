@@ -26,9 +26,9 @@ const ContactUs = () =>{
                             <div className="content">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod temp incidunt ut labore et dolore magna aliqua uat enim ad minim veniama quis nostrud ullamco lab oris nisi ut aliqu.</p>
                                 <ul className="list-default">
-                                    <li><i className="fa fa-clock-o"></i>123 Holding, Busan, Korea</li>
-                                    <li><i className="fa fa-phone"></i>0123-456-789</li>
-                                    <li><i className="fa fa-envelope-o"></i>Support@htmlcs.com</li>
+                                    <li><i className="fa fa-clock-o"></i>Nairobi, Kenya</li>
+                                    <li><i className="fa fa-phone"></i>0718409147</li>
+                                    <li><i className="fa fa-envelope-o"></i>Support@safarimotors.co.ke</li>
                                     <li><i className="fa fa-globe"></i>www.htmlcs.com</li>
                                 </ul>
                             </div>

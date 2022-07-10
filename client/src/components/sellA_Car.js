@@ -9,7 +9,7 @@ const  Sell = () => {
                         <ul className="ht-breadcrumb pull-left">
                         <li className="home-act"><a  ><i className="fa fa-home"></i></a></li>
                         <li className="home-act"><a  >Car</a></li>
-                        <li className="active">Sell a car</li>
+                        <li className="active">Buy a car</li>
                         </ul>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const  Sell = () => {
                             <div className="bg-gray-f5 bg1-gray-15 p-lg-30 p-xs-15">
                                 <div className="m-b-lg-10">
                                     <div className="heading-1">
-                                        <h3>Car Infomation</h3>
+                                        <h3>Order</h3>
                                     </div>
                                     <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
                                     <div className="row">
@@ -51,7 +51,7 @@ const  Sell = () => {
                                 </div>
                                 <div className="m-b-lg-40">
                                     <div className="heading-1">
-                                        <h3>Upload Images</h3>
+                                        <h3>BUY NOW</h3>
                                     </div>
                                     <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
                                     <div className="row">
@@ -92,7 +92,7 @@ const  Sell = () => {
                                 </div>
                                 <div className="m-b-lg-20">
                                     <div className="heading-1">
-                                        <h3>Car Details </h3>
+                                        <h3>MAKE PAYMENT </h3>
                                     </div>
                                     <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
                                     <div className="row">
@@ -300,7 +300,7 @@ const  Sell = () => {
                                 </div>
                                 <div className="m-b-lg-30">
                                     <div className="heading-1">
-                                        <h3>Features & Options</h3>
+                                        <h3>SHIPMENT</h3>
                                     </div>
                                     <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
                                     <div className="row">
@@ -413,7 +413,7 @@ const  Sell = () => {
                                 </div>
                                 <div className="m-b-lg-20">
                                     <div className="heading-1">
-                                        <h3>TECHNICAL SPECIFICATIONS</h3>
+                                        <h3>CUSTOM CLEARANCE</h3>
                                     </div>
                                     <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
                                     <div className="row">

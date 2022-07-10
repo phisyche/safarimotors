@@ -81,7 +81,7 @@ class ProductItemCard extends Component{
                             </li>
                         </ul>
                         <div className="product-price-group">
-                        <span className="product-price">${product.price}</span>
+                        <span className="product-price">KSHS {product.price}</span>
                         </div>
                         <a className="ht-btn ht-btn-default" onClick={()=>{
                                     this.props.addToBasket(product,1);

@@ -51,10 +51,10 @@ $(function(){
 	//Slider
 	$( ".slider-range" ).slider({
       range: true,
-      min: 5000,
-      max: 200000,
+      min: 200000,
+      max: 20000000,
 	  step: 1000,
-      values: [ 60000, 130000 ],
+      values: [ 3000000, 13000000 ],
       slide: function( event, ui ) {
          $( ".slider_amount" ).val( "$" + ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " - $" + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
       }

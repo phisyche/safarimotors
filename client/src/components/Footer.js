@@ -12,23 +12,23 @@ const Footer = () => {
                         <h3>Company Info</h3>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                        sed do eiusmod temp incidunt ut .
+                      <strong>  SAFARI MOTORS </strong><br/>
+                        Global car exporter
                     </p>
                     <ul className="list-default">
                         <li>
-                        <i className="fa fa-signal" />123 Holding, Busan, Korea
+                        <i className="fa fa-signal" />Nairobi, Kenya
                         </li>
                         <li>
                         <a href="tel:01686813774">
-                            <i className="fa fa-phone" />0123-456-789
+                            <i className="fa fa-phone" />0718409147
                         </a>
                         </li>
                         <li>
-                        <i className="fa fa-envelope-o" />Support@htmlcs.com
+                        <i className="fa fa-envelope-o" />Support@safarimotors.co.ke
                         </li>
                         <li>
-                        <i className="fa fa-globe" />http://www.ndktheme.com
+                        <i className="fa fa-globe" />http://www.safarimotors.co.ke
                         </li>
                     </ul>
                     </div>
@@ -37,10 +37,7 @@ const Footer = () => {
                         <div className="heading-1">
                         <h3>Newsletter</h3>
                         </div>
-                        <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                        sed do eiusmod temp incidunt ut{" "}
-                        </p>
+                        
                         <form>
                         <div className="form-group">
                             <input
@@ -62,28 +59,28 @@ const Footer = () => {
                     </div>
                     <ul className="list-default">
                         <li>
-                        <a  >
-                            <i className="fa fa-angle-right" />Privacy Policy
+                        <a href='#' >
+                            Privacy Policy
                         </a>
                         </li>
                         <li>
-                        <a  >
-                            <i className="fa fa-angle-right" />Community
+                        <a  href='#'>
+                            Community
                         </a>
                         </li>
                         <li>
-                        <a  >
-                            <i className="fa fa-angle-right" />Blog
+                        <a  href='#'>
+                            Blog
                         </a>
                         </li>
                         <li>
-                        <a  >
-                            <i className="fa fa-angle-right" />Guide use
+                        <a  href='#'>
+                            Guide use
                         </a>
                         </li>
                         <li>
-                        <a  >
-                            <i className="fa fa-angle-right" />Our Servces
+                        <a  href='#'>
+                            Our Servces
                         </a>
                         </li>
                     </ul>
@@ -98,8 +95,8 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-6">
                     <p>
-                        © 2016 Designed by{" "}
-                        <a href="https://themeforest.net/user/t3theme">t3theme</a>.
+                        © 2022 {" "}
+                        safarimotors ltd.
                         All rights reserved
                     </p>
                     </div>
@@ -122,7 +119,7 @@ const Footer = () => {
                         </li>
                         <li>
                         <a  >
-                            <i className="fa fa-facebook" />
+                            <i className="fa fa-twitter" />
                         </a>
                         </li>
                     </ul>

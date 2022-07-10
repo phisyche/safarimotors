@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { Link } from 'react-router-dom';
 
 class Home extends Component{
 
@@ -12,7 +13,7 @@ class Home extends Component{
             <div className="wrap-body-inner">
                 <div className="product product-grid product-grid-2 car m-t-lg-90 p-t-sm-35 m-b-lg-20">
                     <div className="heading">
-                        <h3>RECENT CARS</h3>
+                        <h3>HIGH QUALITY CARS</h3>
                     </div>
                     <div className="row">
                         <div
@@ -39,7 +40,7 @@ class Home extends Component{
                                 <a  >
                                     HYUNDAI ELANTRA 2016 NEW MODEL / <b>new</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> KSHS 3,100,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -66,9 +67,9 @@ class Home extends Component{
                             <div className="product-caption">
                                 <h4 className="product-name">
                                 <a  >
-                                    KIA SOUL, BRAND NEW MODEL 2016 > <b>used</b>
+                                    KIA SOUL, BRAND NEW MODEL 2016  <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> KSHS 2,700,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -97,7 +98,7 @@ class Home extends Component{
                                 <a  >
                                     FORD MUSTANG 2016 TURBO / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> KSHS 5,000,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -126,7 +127,7 @@ class Home extends Component{
                                 <a  >
                                     HYUNDAI VELOSTER TURBO SPORT / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> KSHS 3,501,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -155,7 +156,7 @@ class Home extends Component{
                                 <a  >
                                     HYUNDAI ELANTRA 2016 NEW MODEL / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> KSHS 3,901,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -184,7 +185,7 @@ class Home extends Component{
                                 <a  >
                                     BMW , NAVI, LEATHER, ABS / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> KSHS 2,801,000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -205,11 +206,15 @@ class Home extends Component{
                 </div>
                 <div className="banner-item banner-2x banner-bg-9 color-inher m-b-lg-50">
                 <h3 className="f-weight-300">
-                    Start Selling With <strong>AutoShop</strong> Now!
+                    Start Buying With <strong>Safari Motors</strong> Now!
                 </h3>
                 <p>No hidden fees or costs, you pay what you need.</p>
                 <a className="ht-btn ht-btn-default">
-                    Click to sell your car
+                    
+
+                    <Link to={"/cars"} className="dropdown-toggle">
+                                Click to buy a car or accessories
+                    </Link>
                 </a>
                 </div>   
             </div>

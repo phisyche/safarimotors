@@ -14,7 +14,7 @@ class Header extends  Component{
                     <div className="col-sm-6 col-md-6 col-lg-6 hidden-xs">
                         <p className="f-14">
                         <i className="fa fa-map-marker m-r-lg-5" />
-                        <strong>AUTOSHOP</strong> - 123 HOLDING, BUSAN, KOREA
+                        <strong>SAFARI MOTORS</strong> - NAIROBI, KENYA
                         </p>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-6">
@@ -22,13 +22,19 @@ class Header extends  Component{
                         <li>
                             <a   className="icon-1">
                             <i className="fa fa-user" />
-                            <span>My Account</span>
+                            <span><Link to={"/home"} className="dropdown-toggle">
+                                        MY ACCOUNT
+                                </Link></span>
                             </a>
                         </li>
                         <li>
                             <a className="icon-1">
                             <i className="fa fa-cart-plus" />
-                            <span>Checkout</span>
+                            <span>
+                            <Link to={"/contactus"}>
+                                       CONTACT US
+                            </Link>
+                            </span>
                             </a>
                         </li>
                         <li className="cart-icon">
@@ -58,7 +64,7 @@ class Header extends  Component{
                         <div className="hotline">
                         <span className="m-r-lg-10">Need support? Call us:</span>
                         <a href="tel:01686813774">
-                            <i className="fa fa-phone" />0123-456-789
+                            <i className="fa fa-phone" />0718409147
                         </a>
                         </div>
                         <div className="clearfix" />
@@ -102,7 +108,7 @@ class Header extends  Component{
                                     </li>
                                     <li className="dropdown">
                                         <Link to={"/sellacar"} className="dropdown-toggle">
-                                        Sell A Car
+                                        HOW TO BUY
                                         </Link>
                                     </li>
                                 </ul>

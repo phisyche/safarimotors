@@ -149,6 +149,12 @@ class SearchBarHome extends Component {
                               Year
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenu5">
+                            <li id="2016" onClick={this.setCarYear}>2022</li>
+                            <li id="2016" onClick={this.setCarYear}>2021</li>
+                            <li id="2016" onClick={this.setCarYear}>2020</li>
+                            <li id="2016" onClick={this.setCarYear}>2019</li>
+                            <li id="2016" onClick={this.setCarYear}>2018</li>
+                            <li id="2016" onClick={this.setCarYear}>2017</li>
                               <li id="2016" onClick={this.setCarYear}>2016</li>
                               <li id="2015" onClick={this.setCarYear}>2015</li>
                               <li id="2014" onClick={this.setCarYear}>2014</li>

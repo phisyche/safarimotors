@@ -94,7 +94,7 @@ class CarItemList extends Component{
                                 <li><i className="fa fa-star"></i></li>
                                 <li><i className="fa fa-star"></i></li>
                             </ul>
-                            <b className="product-price color-red">${car.price},000</b>
+                            <b className="product-price color-red">Kshs {car.price}</b>
                             <p className="product-txt m-t-lg-10">Nunc facilisis sagittis ullamcorper. Proin lectulputate</p>
                             <ul className="static-caption m-t-lg-20">
                                 <li><i className="fa fa-clock-o"></i>{car.year}</li>

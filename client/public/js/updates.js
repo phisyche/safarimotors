@@ -22,15 +22,15 @@ function reRenderRangeSlider(){
 		//Slider
 		$( ".slider-range" ).slider({
 			range: true,
-			min: 5000,
-			max: 200000,
+			min: 200000,
+			max: 20000000,
 			step: 1000,
-			values: [ 60000, 130000 ],
+			values: [ 6000000, 13000000 ],
 			slide: function( event, ui ) {
-			   $( ".slider_amount" ).val( "$" + ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " - $" + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+			   $( ".slider_amount" ).val( "KSHS " + ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " - KSHS " + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "KSHS1,") );
 			}
 		  });
-		  $( ".slider_amount" ).val( "$" + $( ".slider-range" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " - $" + $( ".slider-range" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+		  $( ".slider_amount" ).val( "KSHS " + $( ".slider-range" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "KSHS 1,") + " - KSHS " + $( ".slider-range" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "KSHS1,") );
 		   
 
 		  //Search
@@ -45,15 +45,15 @@ function reRenderRangeSliderOther(p1,p2){
 	//Slider
 	$( ".slider-range" ).slider({
 		range: true,
-		min: 5000,
-		max: 200000,
+		min: 200000,
+		max: 20000000,
 		step: 1000,
 		values: [ p1, p2 ],
 		slide: function( event, ui ) {
-		   $( ".slider_amount" ).val( "$" + ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " - $" + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+		   $( ".slider_amount" ).val( "KSHS " + ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "KSHS1,") + " - KSHS " + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "KSHS1,") );
 		}
 	  });
-	  $( ".slider_amount" ).val( "$" + $( ".slider-range" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " - $" + $( ".slider-range" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+	  $( ".slider_amount" ).val( "KSHS " + $( ".slider-range" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "KSHS1,") + " - KSHS " + $( ".slider-range" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "KSHS1,") );
 	   
 
 			//Search

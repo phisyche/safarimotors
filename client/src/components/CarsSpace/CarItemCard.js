@@ -64,7 +64,7 @@ class CarItemCard extends Component{
                     <a>
                     {car.name} / <b>{car.condition.toUpperCase()}</b>
                     </a>
-                    <span className="f-18"> ${car.price},000</span>
+                    <span className="f-18"> KSHS {car.price}</span>
                     </h4>
                 </div>
                 <ul className="absolute-caption">
