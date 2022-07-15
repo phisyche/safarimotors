@@ -229,8 +229,8 @@ class CarsContainer extends Component {
                         </div>
                         <div className="clearfix"></div>
                         <div className="banner-item banner-bg-4 banner-1x color-inher">
-                            <h5>For All Your</h5>
-                            <h3 className="f-weight-300"><strong>Interior</strong> Accessories</h3>
+                            <h5>Get</h5>
+                            <h3 className="f-weight-300"><strong>Your</strong> Dream</h3>
                             <p>Order everything at the tip of your fingers.</p>
                             <a className="ht-btn ht-btn-default">Shop now</a>
                         </div>
